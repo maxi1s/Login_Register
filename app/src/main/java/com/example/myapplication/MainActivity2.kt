@@ -39,6 +39,8 @@ class MainActivity2 : AppCompatActivity() {
             else{
                 if(isAuth){
                 Toast.makeText(this, "Успех! Вы вошли", Toast.LENGTH_LONG).show()
+                    val intent = Intent(this, MainActivity3::class.java)
+                    startActivity(intent)
                 }else  Toast.makeText(this, "Неправильные данные", Toast.LENGTH_LONG).show()
             }
         }

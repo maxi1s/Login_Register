@@ -84,6 +84,6 @@
         android:id="@+id/buttonDel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="СНЕСТИ ВСЁ НАХ" />
+        android:text="CLEAR DB" />
 
 </LinearLayout>

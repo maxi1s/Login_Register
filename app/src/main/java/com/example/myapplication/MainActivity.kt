@@ -44,11 +44,12 @@ class MainActivity : AppCompatActivity() {
                 Toast.LENGTH_LONG
             ).show()
 
-            val linkToAuth: TextView = findViewById(R.id.link_ToAuth)
-            linkToAuth.setOnClickListener {
-                val intent = Intent(this, MainActivity2::class.java)
-                startActivity(intent)
-            }
+
+        }
+        val linkToAuth: TextView = findViewById(R.id.link_ToAuth)
+        linkToAuth.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
         }
         delete.setOnClickListener {
             val login = userLogin.text.toString().trim()
